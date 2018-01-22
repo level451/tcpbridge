@@ -41,7 +41,7 @@ function connectTcpbridge(){
     });
     clientTcpbridge.on('data', (data) => {
         console.log('relaying data from tcpbridge to oppo:'+data);
-        //clientOppo.write(data);
+        clientOppo.write(data);
     });
 
 
