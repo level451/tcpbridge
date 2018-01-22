@@ -8,6 +8,7 @@ const net = require('net');
 var clientOppo;
 var clientTcpbridge;
 connectTcpbridge();
+connectOppo();
 function connectOppo(){
      clientOppo = net.createConnection({ port: 23,host: HOST}, () => {
 
