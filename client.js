@@ -49,5 +49,4 @@ function connectTcpbridge(){
         console.log('disconnected from projector'); // now we can send additional commands
     })
 
-
 }
